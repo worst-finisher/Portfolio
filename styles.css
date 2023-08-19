@@ -41,6 +41,7 @@
     justify-content:space-between;
     align-items:center;
     padding-top:1rem;
+    
 }
 
 .logo{
@@ -60,18 +61,23 @@
 
 .nav-items{
     display:flex;
-    gap:2rem;
+    gap:3rem;
     padding: 0 4em;
     scroll-behavior: smooth;
+    
+    
 }
 
 .nav-items div{
     font-size:20px;
     font-weight:500;
     cursor:pointer;
+    margin-left: -10px;
+    
 }
 .nav-items div a{
     color:black;
+    
 }
 
 a{
