@@ -112,7 +112,7 @@ a{
     user-select:none;
     font-size: 7em;
     color:rgb(231,231,231);
-    bottom: -14%;
+    bottom: -15%;
     left: -5%;
     font-weight: bold;
     transition: all 3s;
@@ -200,7 +200,7 @@ a{
   }
 
   .user-image{
-    padding:4rem;
+    padding:2rem;
     filter:grayscale(1);
     transition:all 1s;
     animation: scaleImage 5s linear infinite;
