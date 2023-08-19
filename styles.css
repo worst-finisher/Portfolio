@@ -605,7 +605,7 @@ a{
   flex-wrap:wrap;
   width:50%;
   position:relative;
-  gap:2.5rem;
+  gap:3rem;
   justify-content: center;
 }
 
@@ -636,13 +636,29 @@ a{
     left:46%;
   }
 }
+.how
+{
+  margin-bottom: -10px;
+  height: 65px;
+  width: 65px;
+  transition:all 0.5s;
+  margin-left: -20px;
+}
+.how:hover
+{
+
+  transform:scale(1.2);
+
+}
 
 .skills-logo{
   width:90px;
   transition:all 0.5s;
+  
 }
 
 .skills-logo:hover{
+  
   transform:scale(1.2);
 }
 
@@ -652,11 +668,15 @@ a{
   color: var(--bgOrange);
   line-height: 50px;
   margin-top: 25px;
+  cursor: context-menu;
+  
 }
 
 .caps{
   font-size:120px;
   margin-top: 500px;
+  cursor: context-menu;
+  
 }
 
 .skill-subHeading{
@@ -678,19 +698,24 @@ a{
 
 .contactus-heading{
   font-size:5em;
-  color:var(--bgOrange);
+  color: #152781aa;
   padding-top: -15rem;
   margin-left: -4px;
-  margin-bottom: 160px;
+  margin-bottom: 120px;
   font-family: 'Times New Roman', Times, serif;
+  cursor: context-menu;
+}
+.contactus-heading:hover
+{
+  transform: var(--bgOrange);
 }
 
 .contactus-sub-heading{
   font-size:3rem;
-  color:#343d68aa;
+  color: chocolate;
   text-transform: capitalize;
-  line-height: 190px;
-  
+  line-height: 150px;
+  cursor: context-menu;
 }
 
 .contactus-form-container{
@@ -748,7 +773,7 @@ a{
 footer{
   position:relative;
   margin-top:-1px;
-  background-color: #343d68;
+  background-color:#6b6b6b;
   padding:5rem;
   height: 10vh;
 }
@@ -774,15 +799,16 @@ footer{
   display:flex;
   gap:5rem;
   margin-left: 335px;
-  margin-top: -50px;
-  line-height: 80px;
+  margin-top: -70px;
+  line-height: 70px;
 }
 
 .link-wrapper div a{
-  color:white;
+  color:rgb(255, 255, 255);
   text-decoration:none;
   transition:all 0.6s;
   transition: 0.8s;
+  font-size: 90px;
 }
 
 .link-wrapper div a:hover{
@@ -795,4 +821,9 @@ footer{
   margin-top: 30px;
   margin-left: 150px;
   
+}
+
+.icon-wrapper1:hover{
+  transform:scale(1.5);
+
 }
